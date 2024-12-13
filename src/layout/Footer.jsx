@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { CiGlobe } from "react-icons/ci";
+import Langbutton from "./Langbutton";
 
 const Footer = () => {
   return (
@@ -8,10 +8,10 @@ const Footer = () => {
       <p>질문이 있으신가요? 문의전화:02-308-321-0161(수신자부담)</p>
       <ul>
         <li>
-          <a href=""></a>
+          <a href="">자주하는 질문</a>
         </li>
         <li>
-          <a href=""></a>
+          <a href="">미디어 센터</a>
         </li>
         <li>
           <a href=""></a>
@@ -38,11 +38,10 @@ const Footer = () => {
           <a href=""></a>
         </li>
       </ul>
-      <button className="h lang">
-        <CiGlobe />
-        한국어
-      </button>
-      <div>
+      <div className="wrap">
+        <Langbutton />
+      </div>
+      <div className="txt">
         <p>넷플릭스 대한민국</p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ipsum
