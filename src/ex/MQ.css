@@ -1,0 +1,20 @@
+#mq {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  transition: all 0.3s;
+}
+
+#mq {
+  background-color: antiquewhite;
+  width: 500px;
+  height: 500px;
+}
+/* mobile->320px
+table->768px
+desktop->1024~1200px */
+@media all and (min-width: 1024px) {
+  #mq {
+    background-color: blue;
+  }
+}

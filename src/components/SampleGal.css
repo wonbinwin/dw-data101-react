@@ -1,0 +1,12 @@
+#gal {
+  padding: 20px;
+}
+#gal .wrap {
+  border: 1px solid;
+}
+#gal .wrap img {
+  border: 1px solid;
+}
+#gal .wrap button .chev {
+  position: absolute;
+}
